@@ -1,3 +1,4 @@
+# pylint: disable=unused-import
 # Uncomment the required imports before adding the code
 
 from django.shortcuts import render
