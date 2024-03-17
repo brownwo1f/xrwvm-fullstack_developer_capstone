@@ -1,8 +1,9 @@
 # Uncomment the following imports before adding the Model code
 
-
+import requests
+import os
+from dotenv import load_dotenv
 from django.db import models
-from django.utils.timezone import now
 from django.core.validators import MaxValueValidator, MinValueValidator
 
 
@@ -22,10 +23,6 @@ class CarMake(models.Model):
 
 
 # Uncomment the imports below before you add the function code
-
-import requests
-import os
-from dotenv import load_dotenv
 
 load_dotenv()
 
